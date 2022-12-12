@@ -45,6 +45,8 @@ Usage:  lsh.py为主要程序,在需要检测的地方引用vgg_lshash函数
 ```
 
 ## 函数说明
+```
+
 1.def make_model():
 
 参考https://blog.csdn.net/me_yundou/article/details/109218273, 获得vgg19网络的倒数第二层，输出为4096维。
@@ -84,4 +86,5 @@ Usage:  lsh.py为主要程序,在需要检测的地方引用vgg_lshash函数
 5.def Register(image_path:str,signature): 
 
 将字典映射image_path：signature存入features.npy文件。
+```
 
